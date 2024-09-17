@@ -1,0 +1,184 @@
+@media only screen and (max-width: 768px) {
+    html, body {
+      overflow-x:hidden;
+    }
+
+    /* BOOTSTRAP OVERRIDE STYLES */
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+     
+    }
+    .carousel-caption {
+        text-align:left;
+        top:25%;
+        bottom:unset;
+        padding-top:unset;
+        padding-bottom:unset;
+        
+    }
+    
+    .carousel-caption h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        text-shadow: 2px 2px 4px #000000;
+    
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+        font-weight:400;
+        text-shadow: 1px 1px 4px #000000;
+        padding-right:5%;
+    
+    }
+
+    .carousel-caption button.btn{
+        font-size: 1rem;
+        color: #0B75A4;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 5px 20px;
+        background-color: #E6E6E6;
+        box-shadow: 1px 1px 4px #000;
+       } 
+
+    #iusm-header {
+        height:70px;
+    }
+    .iusm-divider img{
+        height: 30px;
+        width:100%;
+    }
+
+    .iusm-logo-revista-svg {
+        width:150px; 
+        height: 70px;
+    }
+    .iusm-logo-header{
+        width:100px;
+        height:70px;
+    }
+    .iusm-logo {
+        width:180px; 
+        height:100%;
+    }
+
+    #home-slider img {
+        height: calc(100vh - 120px);
+        object-fit: cover;
+    }
+    .iusm-video {
+        position: relative;
+        height: 250px;
+        width:120%;
+        margin: 0 0px 0 -5px;
+        padding: 0 0;
+    }
+    .iusm-video-home {
+        height:auto;
+    }
+    .iusm-a-r .iusm-txt{
+        text-align:justify;
+        max-width:100%;
+        padding: 0px 30px
+
+        }
+
+        .iusm-testimonial .container{
+            height:auto;
+           
+        }
+        .iusm-testimonial { 
+            background-position:top;
+            background-repeat: no-repeat;
+            background-size: 100vw;
+
+        }
+       
+        .iusm-a-l .iusm-txt{
+            text-align:justify;
+            max-width:100%;
+            padding: 250px 30px 0px 30px;
+            margin-right:0px;
+            }
+        .info {
+            margin: 0 25px;
+        } 
+        
+        .info p{
+            margin-top:25px;
+        }
+
+        /* TITLE BAR */
+ #iusm-title-bar {
+    height: 450px;
+    padding: 0px 10vw;
+ }
+ #iusm-title-bar .divider {
+    width:70%;
+    border-top: 1px solid #fff;
+    color:transparent;
+    margin-top:25px;
+
+ }
+ .iusm-article-title, .iusm-section-title, .iusm-article-date{
+    font-family: 'Encode Sans', sans-serif !important;
+ }
+.iusm-article-title {
+font-size: 1.6rem;
+}
+ .iusm-section-title {
+    display: table;
+    background-color: #fff;
+    padding: 0px 40px;
+    margin-bottom:25px
+ }
+
+ /* CONTENT */
+ .iusm-content {
+    max-width: 90%;
+ }
+ .iusm-content h2 {
+    margin-top:25px;
+    font-size: 1.3rem;
+ }
+ .iusm-content p span.fs-4 {
+    font-size:1.2rem !important;
+ }
+ .iusm-bio-title {
+    display: table;
+    background-color: #0B75A4;
+    padding: 10px 20px;
+    color:#fff;
+    width:100%;
+    text-align: center;
+ }
+
+ .iusm-hashtag {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #0B75A4;
+    text-align: center;
+    margin: 25px 0px;
+ }
+ .iusm-img-divider {
+    height: 200px;
+    padding: 0px 10vw;
+ }
+ .iusm-img-divider h1 {
+    font-family: 'Encode Sans', sans-serif !important;
+    font-size:2rem;
+    text-align: center;
+ }  
+ .iusm-related-cards .iusm-related-title {
+    height: 18px;
+    width:100%;
+    background-image: url("assets/csv/related-title-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 25px;
+}
+
+}

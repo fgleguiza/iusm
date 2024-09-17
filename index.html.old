@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IUSM</title>
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"  rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="dist/css/poncho.min.css" rel="stylesheet">
+        <link href="dist/css/icono-arg.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+       
+
+
+    </head>
+<body>
+<!-- head-->
+	<div class="fixed-top">
+ 	<div class="container-fluid bg-pna d-none d-lg-block" style="padding: 13px 0px 10px 0px; background-color: #1074A6; color: white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 text-light">
+					<i class="icono-arg-telefono-neg" style="font-size: 12px;"></i> <span class="small text-light"> +54 11 4512 1014</span></div>
+				<div class="col-md-6 text-light">
+					<i class="icono-arg-mail-1" style="font-size:12px"></i><span class="small text-light"> informes@iusm.edu.ar</span></div>
+				<div class="col-md-3 small text-right">
+					<a href="https://www.facebook.com/prefecturanavalar" target="_blank" class="pictogramanav"style="font-size: 16px"><i class="icono-arg-facebook-f-"></i></a>
+					<a href="https://twitter.com/PrefecturaNaval" target="_blank" class="pictogramanav" style="font-size: 16px"><i class="icono-arg-twitter-pajaro"></i></a>
+					<a href="https://www.youtube.com/c/prefecturanavalar" target="_blank" class="pictogramanav" style="font-size: 16px"><i class="icono-arg-youtube"></i></a>
+					<a href="https://www.instagram.com/prefecturanaval/" target="_blank" class="pictogramanav"style="font-size: 16px"><i class="icono-arg-instagram"></i></a>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+ 
+<!-- nav-->
+		
+<div class="container">		
+	<div class="row">
+	<nav class="navbar navbar-light shadow navbar-expand-lg " style="background-color: rgba(255,255,255,1); padding: 0px;">
+		<div class=" container" style="padding:0px;">
+			<a class="navbar-brand" href="index.html" style="padding:0px; width: 20%; height: 20%; margin-top: 10px"><img class="logomenu img-responsive" src="img/fragmentos/logo_iusm.png"></a>
+			<div class="nav-item-float">
+			<ul class="nav nav-pills col-12 col-md-auto mb-2 justify-content-center mb-md-0" style="padding-top: 40px; float: right; text-decoration: none;">
+				<li class="nav-item"><a href="index.html"> <i class="icono-arg-casa-negativo" style="color: black"></i> </a></li>
+				<li class="nav-item"><a href="institucional.html" class="textomenu">INSTITUCIONAL</a></li>
+				<li class="nav-item"><a href="carreras.php" class="textomenu">CARRERAS</a></li>
+				<li class="nav-item"><a href="academica.html" class="textomenu">ACADÉMICA</a></li>
+				<li class="nav-item"><a href="posgrado.html" class="textomenu">POSGRADO</a></li>
+				<li class="nav-item"><a href="extension.html" class="textomenu">EXTENSIÓN</a></li>
+				<li class="nav-item"><a href="revista/index.html" target="_blank" class="textomenu">REVISTA</a></li>
+			<!--	<li class="nav-item"><a href="http://www.biblioteca.prefecturanaval.gov.ar/" class="textomenu">BIBLIOTECA</a></li> -->
+				<li class="nav-item"><a href="investigacion.html" class="textomenu">INVESTIGACIÓN</a></li>
+				<li class="nav-item"><a href="ubicacion.html"><i class="icono-arg-marcador-ubicacion-2" style="color: black"></i>
+				</a></li>
+			</ul>
+			</div>
+		</div>	  		
+       		<span class="navbar-toggler-icon"></span>
+        	<div class="collapse navbar-collapse justify-content-end" id="navbarContent"> 			
+    			<ul class="navbar-nav">
+				</ul>
+			</div>
+	</nav>
+		</div>
+
+    
+</div>
+<!-- boody-->
+	<!-- imagen banner-->	
+	<div class="imagen1">	
+<div class="contenedor_slider">
+  <div class="fling-minislide">
+	  
+  <img src="img/fragmentos/1inicio.jpg"  style="width: 100%">  
+  <img src="img/fragmentos/2inicio.jpg"  style="width: 100%">
+  <img src="img/fragmentos/3inicio.jpg"  style="width: 100%">
+  <img src="img/fragmentos/4inicio.jpg"  style="width: 100%">
+  <img src="img/fragmentos/5inicio.jpg"  style="width: 100%">
+  <img src="img/fragmentos/6inicio.jpg"  style="width: 100%">
+  <img src="img/fragmentos/7inicio.jpg"  style="width: 100%">
+  <img src="img/fragmentos/8inicio.jpg"  style="width: 100%">
+  <img src="img/fragmentos/9inicio.jpg"  style="width: 100%">
+  <img src="img/fragmentos/10inicio.jpg" style="width: 100%">
+	
+  </div>
+</div>		
+</div>
+	
+<div class="imagen2">
+	<div class="contenedor_slider">
+	<div class="fling-minislide">
+		  <div><img src="img/fragmentos/1inicio.jpg"  style="width: 100%">  </div>
+  	</div>
+</div>		
+</div>
+	
+<!-- Footer-->
+		
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12"><br>
+			<h2 class="text-pna" style="color: #0072bb; padding-left: 20px">Perfil Institucional</h2>
+			<div class="text-justify">
+			<div class="textop1" style="padding-left: 20px; padding-right: 20px">
+			<br>
+			<p style="text-align: justify">El <strong>INSTITUTO UNIVERSITARIO DE SEGURIDAD MARÍTIMA (IUSM)</strong> es un proyecto educativo institucional de carácter estratégico para la Prefectura Naval Argentina, el cual se
+justifica sobre la base de poseer un campo disciplinar propio. Por lo cual la oferta educativa que brinda se orienta a la formación de profesionales capacitados en disciplinas ligadas
+a la Seguridad Marítima y Protección del Medio Ambientes; Seguridad Pública y Ciudadana; esto conforma un campo disciplinar con objeto de conocimiento y metodologías de
+investigación propias.</p>
+			</div>
+			</div>
+			
+			<div class="imagenmapeada">				
+		<img src="img/fragmentos/IUSM Infografia11b.jpg" usemap="#image-map" style="width: 100%; height: 86%; margin-right: auto; margin-left: auto;">
+<map name="image-map">
+  <area target="_parent" alt="2" title="2" href="ubicacion.html" coords="60,127,304,233" shape="rect">
+  <area target="_parent" alt="5" title="5" href="unidades academicas.html" coords="378,107,791,290" shape="rect">
+  <area target="_parent" alt="3" title="3" href="carreras.php" coords="853,271,1104,346" shape="rect">
+  <area target="_parent" alt="2 verde" title="2 verde" href="carreras.php" coords="853,193,1103,268" shape="rect">
+  <area target="_parent" alt="2 amarillo" title="2 amarillo" href="carreras.php" coords="854,115,1106,192" shape="rect">
+  <area target="_parent" alt="10" title="10" href="carreras.php" coords="853,36,1106,116" shape="rect">
+</map>
+	</div>
+
+	<div class="imagenmapeada2">
+		<img class="imagenmapa2" src="img/fragmentos/IUSM Infografia2.jpg" usemap="#image-map">
+			<map name="image-map2">
+				<area target="_parent" alt="2" title="2" href="https://iusm.edu.ar/index.php?estado=9/" coords="42,28,83,84" shape="rect">
+				<area target="_parent" alt="5" title="5" href="https://iusm.edu.ar/index.php?estado=3" coords="106,102,129,135" shape="rect">
+				<area target="_parent" alt="10" title="10" href="pregrado" coords="36,205,61,225" shape="rect">
+				<area target="_parent" alt="2 amarillo" title="2 amarillo" href="https://iusm.edu.ar/index.php?estado=3" coords="41,243,60,266" shape="rect">
+				<area target="_parent" alt="2 verde" title="2 verde" href="https://iusm.edu.ar/index.php?estado=3" coords="42,283,57,303" shape="rect">
+				<area target="_parent" alt="3" title="3" href="https://iusm.edu.ar/index.php?estado=3" coords="40,321,56,340" shape="rect">
+			</map>
+	</div>
+			
+			
+			
+		</div>
+	</div>
+</div>
+		
+		
+<footer>
+			
+
+	<div col-lg-12 style="background-color: #ECE8E5; width: 100%; margin-left: auto; margin-right: auto; margin-top: -1px"  >
+
+		<a href="https://www.siu.edu.ar/" style="padding-left: 15px"><img src="img/fragmentos/4.png" alt="SIU"></a>
+		<a href="https://www.coneau.gob.ar/" style="padding-left: 10px"><img src="img/fragmentos/3.png" alt="CONEAU"></a>
+		<a href="https://www.conicet.gov.ar/" style="padding-left: 10px"><img src="img/fragmentos/7.png" alt="CONICET"></a>
+		<a href="https://www.cin.edu.ar/" style="padding-left: 20px"><img src="img/fragmentos/1.png" alt="CIN"></a>	
+		<a href="https://www.imo.org/" style="padding-left: 0px"><img src="img/fragmentos/9.png" alt="IMO"></a>	
+		<a href="http://www.rocram.net/prontus_rocram/site/edic/base/port/inicio.php" style="padding-left: 5px"><img src="img/fragmentos/5.png" 	alt="rocram"></a>
+		<a href="https://iamu-edu.org" style="padding-left: 7px"><img src="img/fragmentos/8.png" alt="iamu"></a>
+		<a href="https://www.mercosur.int/" style="padding-left: 5px"><img src="img/fragmentos/2.png" alt="mercosur"></a>
+		<a href="https://www.unasursg.org/" style="padding-left: 10px"><img src="img/fragmentos/6.png" alt="unasur"></a>
+       
+	</div>
+
+
+<!--<div col-lg-12 style="background-color: white; height: 110px" >
+	<div class="minseguridad" ><a href="https://www.argentina.gob.ar/seguridad"><img src="img/fragmentos/minseguridad.jpeg" alt="Min.Seguridad"></a></div>
+	<div class="minprefe" style="background-color: white;"><a href="https://www.argentina.gob.ar/prefecturanaval"><img src="img/fragmentos/prefe.jpeg" alt="Prefectura"></a></div>
+	<div class="minedu"><a href="https://www.argentina.gob.ar/educacion"><img src="img/fragmentos/mineducacion.jpeg" alt="Min.Educacion"></a></div>
+
+</div>-->
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div col-lg-12 style="background-color: white; height: auto; width: 100%; text-align: center"  >
+			<a href="https://www.argentina.gob.ar"><img src="img/fragmentos/LogoArgentina.jpg" alt="Min.Seguridad" style="width: 20%; float: 	left; margin-left: 10%"></a>
+			<a href="https://www.argentina.gob.ar/educacion"><img src="img/fragmentos/Logo Min Edu.jpg" alt="Prefectura" style="width: 20%; margin-left: -70px"></a>	
+			<a href="https://www.argentina.gob.ar/seguridad"><img src="img/fragmentos/Logo Min Seg.jpg" alt="Min.Educacion" style="width: 20%"></a>
+			<a href="https://www.argentina.gob.ar/prefecturanaval"><img src="img/fragmentos/Logo PNA.jpg" alt="Min.Educacion" style="width: 	20%"></a>
+		</div>
+	</div>	
+</div>
+<div class="container-fluid home-footer" style="padding: 0px; background-color: #343A40; color: white; padding-top: 110px">
+<br><br>
+	
+	
+<div class="container">
+  <div class="row">
+  
+    <div class="col-md-3" align="center">
+      <p class="small text-light text-justify">La <strong>Prefectura Naval Argentina</strong> posee una extensa tradici&oacute;n hist&oacute;rica ampliamente reconocida. Las m&uacute;ltiples actividades de indudable repercusi&oacute;n p&uacute;blica y las sucesivas innovaciones en sus procedimientos y medios, renuevan el inter&eacute;s hacia lo que constituye un verdadero ejemplo de dedicaci&oacute;n a los cometidos que el Estado le ha confiado.<br><br></p><br>
+      
+      
+      <br>
+      <br>
+      
+    </div>
+    
+	 <div class="col-md-6">
+      <h5 class="text-light" style="margin-top: 0px;">CONTACTO</h5>
+      <p class="small text-light">IUSM<br>Juan Díaz de Solís 2371 <br>Olivos, Buenos Aires, Argentina </p>
+      
+      <p class="text-light small"><i class="icono-arg-telefono-neg"></i> +54 11 4512 1014</p>
+	  <p class="text-light small"><i class="icono-arg-mail-1"></i> informes@iusm.edu.ar </p>
+	  <p class="text-light small"><i class="icono-arg-mundo"></i> https://prefecturanaval.gob.ar</p>
+      <br>
+		  
+      <h5 class="text-light" style="margin-top: 0px">VISITA NUESTRAS REDES SOCIALES</h5>
+      <p>
+        <a href="https://www.facebook.com/prefecturanavalar" target="_blank" class="pictogramanav"style="font-size: 16px"><i class="icono-arg-facebook-f-"></i></a>
+		<a href="https://twitter.com/PrefecturaNaval" target="_blank" class="pictogramanav" style="font-size: 16px"><i class="icono-arg-twitter-pajaro"></i></a>
+		<a href="https://www.youtube.com/c/prefecturanavalar" target="_blank" class="pictogramanav" style="font-size: 16px"><i class="icono-arg-youtube"></i></a>
+		<a href="https://www.instagram.com/prefecturanaval/" target="_blank" class="pictogramanav"style="font-size: 16px"><i class="icono-arg-instagram"></i></a>
+			
+      </p>
+    </div>
+    
+    <div class="col-md-3">
+		<p><a class="textopie" href="index.html">INICIO</a></p> 
+		<p><a class="textopie" href="institucional.html">INSTITUCIONAL</a></p>
+		<p><a class="textopie" href="carreras.php">CARRERAS</a></p>
+		<p><a class="textopie" href="academica.html">ACADÉMICA</a></p>		
+		<p><a class="textopie" href="posgrado.html">POSGRADO</a></p>
+		<p><a class="textopie" href="extension.html">EXTENSIÓN</a></p>
+		<p><a class="textopie" href="investigacion.html">INVESTIGACIÓN</a></p>
+	<!--	<p class="textopie" href="http://www.biblioteca.prefecturanaval.gov.ar/">BIBLIOTECA</p> -->
+	<p><a class="textopie" href="/revista/index.html" target="_blank">REVISTA</a></p>
+		<p><a class="textopie" href="ubicacion.html">UBICACIÓN</a></p>
+		
+      <ul class="sitemap">
+             
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</footer>
+	</div>
+ </body>
+        
+</html>

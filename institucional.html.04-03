@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IUSM</title>
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"  rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="dist/css/poncho.min.css" rel="stylesheet">
+        <link href="dist/css/icono-arg.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+       
+
+
+    </head>
+<body>
+<!-- head-->
+	<div class="fixed-top">
+	<div class="container-fluid bg-pna d-none d-lg-block" style="padding: 13px 0px 10px 0px; background-color: #1074A6; color: white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 text-light">
+					<i class="icono-arg-telefono-neg" style="font-size: 12px;"></i> <span class="small text-light"> +54 11 4512 1014</span></div>
+				<div class="col-md-6 text-light">
+					<i class="icono-arg-mail-1" style="font-size:12px"></i><span class="small text-light"> informes@iusm.edu.ar</span></div>
+				<div class="col-md-3 small text-right">
+                    <a href="https://www.facebook.com/prefecturanavalar" target="_blank" class="pictogramanav"style="font-size: 16px"><i class="icono-arg-facebook-f-"></i></a>
+                    <a href="https://twitter.com/PrefecturaNaval" target="_blank" class="pictogramanav" style="font-size: 16px"><i class="icono-arg-twitter-pajaro"></i></a>
+                    <a href="https://www.youtube.com/c/prefecturanavalar" target="_blank" class="pictogramanav" style="font-size: 16px"><i class="icono-arg-youtube"></i></a>
+                    <a href="https://www.instagram.com/prefecturanaval/" target="_blank" class="pictogramanav"style="font-size: 16px"><i class="icono-arg-instagram"></i></a>
+    
+				</div>
+			</div>
+		</div>
+	</div>
+ 
+<!-- nav-->
+	<nav class="navbar navbar-light shadow navbar-expand-lg" style="background-color: rgba(255,255,255,1); padding: 0px;">
+		<div class="container" style="padding:0px;">
+			
+			<a class="navbar-brand" href="index.html" style="padding:0px; width: 20%; height: 20%; margin-top: 10px"><img class="logomenu" src="img/fragmentos/logo_iusm 2.png"></a>
+			<div class="nav-item-float">
+			<ul class="nav nav-pills" style="padding-top: 40px; float: right; text-decoration: none;">
+				<li class="nav-item"><a href="index.html"> <i class="icono-arg-casa-negativo" style="color: black"></i> </a></li>
+				<li class="nav-item"><a href="institucional.html" class="textomenu">INSTITUCIONAL</a></li>
+				<li class="nav-item"><a href="carreras.php" class="textomenu">CARRERAS</a></li>
+				<li class="nav-item"><a href="academica.html" class="textomenu">ACADÉMICA</a></li>
+				<li class="nav-item"><a href="posgrado.html" class="textomenu">POSGRADO</a></li>
+				<li class="nav-item"><a href="extension.html" class="textomenu">EXTENSIÓN</a></li>
+				<li class="nav-item"><a href="revista/index.html" target="_blank" class="textomenu">REVISTA</a></li> 
+			<!--	<li class="nav-item"><a href="http://www.biblioteca.prefecturanaval.gov.ar/" class="textomenu">BIBLIOTECA</a></li> -->
+				<li class="nav-item"><a href="investigacion.html" class="textomenu">INVESTIGACIÓN</a></li>
+				<li class="nav-item"><a href="ubicacion.html"><i class="icono-arg-marcador-ubicacion-2" style="color: black"></i>
+				</a></li>
+
+			</ul>
+			</div>
+ 		  		
+          		<span class="navbar-toggler-icon"></span>
+        	<div class="collapse navbar-collapse justify-content-end" id="navbarContent"> 			
+    			<ul class="navbar-nav">
+				</ul>
+			</div>
+  		</div>
+	
+		
+	</nav>
+    
+</div>
+<!-- boody-->
+<!-- imagen banner-->
+	
+<div class="caja_imagen8 img-fluid">
+      <div class="texto_encima col-md-12">
+		  
+        <h1 class="textobanner">Institucional</h1>
+      </div>
+  
+</div>
+<main> 
+     <div class="container">
+      <div class="row">
+          <div class="col-sm-3">
+            <ul class="nav nav-pills nav-stacked"></ul>
+            <ul class="nav nav-pills nav-stacked" style="margin-top: 0;">
+                  <li data-seccion="1" class="active"><a data-toggle="tab" href="#presentación" class="boton0" style="margin-left: -9px"><p class="boton1">Presentación</p></a></li>
+                  <li><a data-toggle="tab" href="#mision" class="boton0"><p class="boton1">Misión, Visión y Valores</p></a></li>
+				  <li><a data-toggle="tab" href="#autoridades" class="boton0"><p class="boton1">Autoridades</p></a></li>
+                 <!-- <li><a data-toggle="tab" href="#junta" class="boton2"><p class="boton3">Junta Directiva</p></a></li> -->
+                  <li><a data-toggle="tab" href="#recto" class="boton2"><p class="boton3">Rectorado</p></a></li>
+                  <li><a data-toggle="tab" href="#norma" class="boton0"><p class="boton1">Normativa</p></a></li>
+				  <li><a data-toggle="tab" href="#leyesydecretos" class="boton2"><p class="boton3">Leyes y Decretos</p></a></li>
+				  <li><a data-toggle="tab" href="#reso" class="boton2"><p class="boton3">Resoluciones</p></a></li>
+				  <li><a data-toggle="tab" href="#regla" class="boton2"><p class="boton3">Reglamentos</p></a></li>
+
+            </ul>
+          </div>
+          <div class="col-sm-9" style="margin-top: -25px">
+            <div class="tab-content">
+              <div id="presentación" class="tab-pane fade in active" style="text-align: justify">
+            <p>El día 22 de agosto de 2007 fue sancionada por el Honorable Congreso de la Nación
+                Argentina la Ley 26286, mediante la cual se crea el <strong> INSTITUTO UNIVERSITARIO DE
+                SEGURIDAD MARÍTIMA (IUSM)</strong>, un anhelado proyecto de la Prefectura Naval Argentina que materializa el 
+                reconocimiento de la formación superior de sus recursos humanos.  </p> 
+            <p>La Prefectura es la autoridad marítima Argentina en virtud de las funciones que desempeña en el 
+                ejercicio de las obligaciones del país como Estado de abanderamiento y como Estado rector del puerto para: 
+                el registro de buques y control de condiciones de seguridad de la navegación en aguas jurisdiccionales; 
+                la salvaguarda y verificación de la navegabilidad y condiciones de seguridad de los buques, incluyendo, 
+                reglas de construcción, plantas propulsoras, dispositivos y medios de salvamento, radio-comunicaciones marítimas, 
+                transporte de mercancías, normas sobre buques nucleares, buques transportadores de pasajeros y control de las 
+                actividades portuarias. </p>
+            <p> La Prefectura también cumple funciones en el campo de la seguridad pública y como policía auxiliar 
+                judicial, aduanera, pesquera, migratoria, sanitaria (prevención y lucha contra delitos y contravenciones 
+                de competencia federal), jurisdicción administrativa de la navegación y función de policía ambiental en 
+                aguas de competencia nacional. </p>
+            <p>En este marco, la Prefectura ha adecuado el funcionamiento de su sistema educativo a la normativa 
+                vigente en materia de educación superior, asegurando las condiciones para garantizar una oferta académica
+                 universitaria en sus áreas de competencia: Protección Marítima y Portuaria, Seguridad de la Navegación, 
+                 Protección del Ambiente Marino y Seguridad Pública. De esta manera, en el IUSM se dictan carreras de pregrado, 
+                 grado y posgrado a través de las Unidades Académicas que lo integran.</p>
+            <p>La puesta en marcha del Instituto se ha convertido, no solo en un ámbito para la formación e investigación en los 
+                campos ya mencionados, sino además, en un espacio para crear y difundir un estado de conciencia de los valores 
+                compartidos socialmente y sobre temas críticos para la comunidad en su conjunto.</p>
+              </div>
+
+              <div id="mision" class="tab-pane fade" style="text-align: justify">
+            <p>El Instituto Universitario de Seguridad Marítima tiene como 	<strong class="text-primary">MISIÓN:</strong></p>
+            <p><li>Conformar una estructura académica de nivel universitario para formar profesionales y técnicos en las áreas 
+                de Seguridad propias del campo de acción de la <strong>PREFECTURA
+                NAVAL ARGENTINA (PNA)</strong>, abierta a las propias demandas y con ofertas para otras instituciones de Seguridad, nacionales
+                 y extranjeras, así como para todos los miembros de la comunidad interesados;</li>
+                <li>Realizar investigaciones científicas y técnicas en el campo de la seguridad marítima y la seguridad pública y ciudadana y en 
+                    todas las áreas que se desprendan de los campos funcionales de la PNA y ramas del saber conexas;</li>
+                <li>  Impartir enseñanza para la formación y el perfeccionamiento continuo del personal propio y todos los estudiantes que pasen por 
+                    sus claustros, con nivel de excelencia y modalidades de educación presencial, semipresencial y a distancia;</li>
+                <li>Conformar ofertas de posgrado abiertas a la comunidad en carreras vinculadas con los intereses marítimos de seguridad de la 
+                    navegación, de protección ambiental y de seguridad pública y ciudadana;</li>
+                <li>Insertar al Instituto en la comunidad educativa nacional, impulsando la integración interuniversitaria nacional, regional y mundial, 
+                    asociándose en redes y estableciendo mecanismos de difusión e intercambio;</li>
+            <li>Desplegar su ámbito de actuación en función del área jurisdiccional y operativa de la PNA, con aspiración a convertirse en referente
+                 regional e internacional en temas que le son propios.</li></p>
+                <br>
+                <h6 class="text-primary">VISIÓN</h6>
+                <p><li> Conformarse y desarrollarse como institución universitaria que transmita y genere 
+                    conocimientos de punta en temas como: Seguridad de la Navegación, Protección Ambiental y Seguridad Pública y 
+                    Ciudadana, a través de sus carreras de pregrado, grado y posgrado;</li>
+                <li> Mantener ofertas de educación permanente que aseguren la actualización de conocimientos y competencias y se 
+                    canalicen por medio de la extensión universitaria;</li>
+                <li> Lograr capacidad para interactuar y vincularse activamente con otras instituciones universitarias, centros académicos 
+                    y organismos de investigación y desarrollo tecnológico nacionales e internacionales, para potenciar sus actividades 
+                    académicas, de investigación y de relaciones con la comunidad en general;</li>
+                    <li> Constituirse como un institución universitaria líder a nivel nacional y regional en la formación de profesionales
+                        de la Seguridad de la Navegación, Protección Ambiental y Seguridad Pública y Ciudadana.</li></p>
+                <br>
+                <h6 class="text-primary">VALORES</h6>
+                <p><strong>Respeto por el Factor Humano</strong></p>
+                <p>Y por el potencial y posibilidades de los estudiantes para lograr un desarrollo equilibrado en 
+                    su bagaje profesional y en el fortalecimiento de su ética personal en su doble rol: como ser humano 
+                    solidario y como funcionario policial de una autoridad marítima Nacional.</p>
+                <p><strong>Carácter Pionero y Sensible</strong></p>
+                <p>A las transformaciones políticas y sociales que se operan en el mundo y en Argentina, de manera que pueda 
+                    responder a las necesidades y requerimientos presentes en materia de conocimiento, investigación e igualdad 
+                    de oportunidades, pero que también pueda desarrollar una capacidad institucional para contribuir a generar 
+                    un futuro deseable para la institución y la comunidad en la que se inserta.</p>
+                <p><strong>Actitud Flexible y Estable</strong></p>
+                <p>Como institución que actúa en el tiempo y con proyección de futuro, con capacidad para reveerse y simultáneamente 
+                    permanecer vigente y adecuarse a las nuevas exigencias políticas y normativas, innovando su estructura de
+                     funcionamiento sin perder su identidad, fines, propósitos, campo disciplinar y su organización esencial.</p>
+                <p><strong>Actitud Participativa y Participante</strong></p>
+                <p>Con valores democráticos, de solidaridad, cooperación y espíritu de liderazgo, abierto al trabajo en conjunto 
+                    con los sectores públicos, privados y académicos.</p>
+              </div>
+              <div id="autoridades" class="tab-pane fade" style="text-align: justify">
+                <p>El Instituto Universitario de Seguridad Marítima de la Prefectura Naval Argentina tiene
+            como máximo órgano de gobierno a la Junta Directiva, estableciendo su sistema de
+            gobierno conforme su propio régimen institucional, de acuerdo con los artículos 74° y
+            77° de la <a href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25394/texact.htm"target="_blank">Ley N° 24.521/95</a>, según Decreto N° 1389/02 del Poder Ejecutivo Nacional y
+            el espíritu del Título IV, capítulos 1, 2, 3 y 4 de la Ley de Educación Superior.</p>
+              </div>
+              <div id="junta" class="tab-pane fade" style="text-align: justify">
+                    <p>La <strong>JUNTA DIRECTIVA</strong> es la máxima autoridad del Instituto Universitario de Seguridad Marítima, funciona como un Órgano Colegiado de Gobierno del mismo, presidida por el Prefecto Nacional Naval, o por el Subprefecto Nacional Naval, en caso de ausencia del primero y en su carácter de Vicepresidente, según lo establece el Artículo 12, Capítulo II, Título III del Estatuto del Instituto Universitario.</p>
+                <br>
+
+                <p><strong class="text-primary">PRESIDENTE</strong><br>
+                Prefecto General MARIO RUBÉN FARINÓN<br>
+                <strong>Prefecto Nacional Naval</strong></p>
+                <br>
+
+                <p><strong class="text-primary">VICEPRESIDENTE</strong><br>
+                    Prefecto General JORGE RAÚL BONO<br>
+                    <strong> Subprefecto Nacional Naval</strong></p>
+                    <br>
+
+                <p><br><strong class="text-primary">VOCALES</strong><br>
+                Prefecto General NORBERTO NELIO NINI<br>
+                <strong> Director General de Seguridad de Prefectura Naval Argentina</strong></p>
+                <br>
+
+                <p>Prefecto General JORGE ALBERTO KNEETEMAN<br>
+                <strong>Director General de Recursos Humanos y Desarrollo de la Prefectura Naval Argentina</strong></p>
+                <br>
+
+                <p>Prefecto General MARCELO KUMMER<br>
+                <strong>Director de Educación de la Prefectura Naval Argentina</strong></p>
+                <br>
+
+                <strong>Dos miembros del Ministerio de Seguridad de la Nación, designados por el/la Ministro/a.  <br><br>
+
+						Un representante del Ministerio de Educación de la Nación, propuesto por el/la Ministro/a de Educación, y ratificado por el/la Ministro/a de Seguridad.  <br><br>
+
+						Un representante de la Comunidad Académica-Científica de reconocida trayectoria en Seguridad, designado por el/la Ministro/a de Seguridad.  <br><br>
+						</strong>
+                
+                <p>Mágister ENRIQUE ANDRÉS FONT<br>
+                <strong>Rector del Instituto Universitario de Seguridad Marítima</strong></p>
+                <br>
+                <p>Podrán participar de dicha Junta por expresa convocatoria de la misma: el Vicerrector, el Director General de Logística, los Directores del Personal; de Administración Financiera; del Material y de Planeamiento de la Prefectura Naval Argentina; y los Secretarios: Académico; de Posgrado y Educación Permanente; de Estudios e Investigaciones y cualquier otro miembro de la Comunidad Universitaria que fuese convocado.</p>
+                </div>
+			  	
+
+               <div id="recto" class="tab-pane fade" style="text-align: justify">
+                    <p> <strong class="text-primary">RECTOR</strong><br>
+                    Mag. ENRIQUE ANDRÉS FONT</p>
+                    <p><strong class="text-primary">VICERRECTOR</strong><br>
+                    Abogado SERGIO GUSTAVO SILVA</p>
+                    <p><strong class="text-primary">SECRETARÍA ACADÉMICA</strong><br>
+                    Lic. LAUTARO PEDOT</p>
+                    <p><strong class="text-primary">SECRETARÍA DE POSGRADO Y DE EDUCACIÓN PERMENENTE</strong><br>
+                    Lic. NORA SUSANA SEGOVIA</p>
+                    <p><strong class="text-primary">SECRETARÍA DE ESTUDIOS E INVESTIGACIONES</strong><br>
+                    Mag. PABLO EDGARDO MESA</p>
+                    <p><strong class="text-primary">SECRETARÍA DE PLANEAMIENTO</strong><br>
+                    Prefecto Principal ANDRES MARIA NIEVAS</p>
+                    <p><strong class="text-primary">SECRETARÍA DE EXTENSIÓN UNIVERSITARIA</strong><br>
+                    Lic. ANDREA RETAMAL HOFMANN</p>
+                    <p><strong class="text-primary">SUBSECRETARÍA DE ASUNTOS ESTUDIANTILES</strong><br>
+                    Prefecto ALEJANDRA TISSIERES</p>
+                 </div>
+				
+				  <div id="norma" class="tab-pane fade" style="text-align: justify">
+                <p>En este espacio podrás encontrar toda la normativa que regula el funcionamiento del
+						Instituto Universitario de Seguridad Marítima.</p>
+              </div>
+				
+				<div id="leyesydecretos" class="tab-pane fade" style="text-align: justify">
+                    <p><strong>LEY N° 26.286 del 22 de agosto de 2007 | Poder Ejecutivo Nacional</strong><br>
+						El Senado y la Cámara de Diputados de la Nación Argentina sancionan con Fuerza de Ley, la Creación del Instituto Universitario de Seguridad Marítima (IUSM). Publicado en el Boletín Oficial N°31239 del 14 de septiembre de 2007.</p><br>.
+					
+					<div class="col-md-12 col-xs12 col-sm-6 m-b-2" style="text-align: left; margin-bottom: 30px; margin-left: -13px">
+					<a href="pdf/institucional/IUSM - Ley 26286 Creación IUSM_.pdf" class="btn btn-primary btn-sm" download 				style="border-radius: 15px; background-color: #0073a5">
+					<i class="fa fa-download"></i> Descargar archivo </a></div>
+
+                <p><strong>DECRETO N°1389 del 02 de agosto de 2002 | Poder Ejecutivo Nacional</strong><br>
+						Se autoriza a la Prefectura Naval Argentina a la creación del Instituto Universitario de Seguridad Marítima. Publicado en el Boletín Oficial N°29956 del 06 de agosto de 2002.</p><br>
+					
+					<div class="col-md-12 col-xs12 col-sm-6 m-b-2" style="text-align: left; margin-bottom: 30px; margin-left: -13px">
+					<a href="/pdf/institucional/IUSM - DECRETO N°1389_.pdf" class="btn btn-primary btn-sm" download 				style="border-radius: 15px; background-color: #0073a5">
+					<i class="fa fa-download"></i> Descargar archivo </a></div>
+              </div>
+				
+								
+					<div id="reso" class="tab-pane fade" style="text-align: justify">
+                <p><strong>ESTATUTO ACADÉMICO del 15 de mayo 2003 | MECYT</strong> <br>
+						Aprobado por Resolución N°781 del 15 de mayo de 2003 por el entonces Ministerio de Educación, Ciencia y Tecnología. Publicado en el Boletín Oficial N° 30159 del 28 de mayo de 2003.</p><br>
+					
+					<div class="col-md-12 col-xs12 col-sm-6 m-b-2" style="text-align: left; margin-bottom: 30px; margin-left: -13px">
+					<a href="pdf/institucional/IUSM - ESTATUTO ACADEMICO_.pdf" class="btn btn-primary btn-sm" download 				style="border-radius: 15px; background-color: #0073a5">
+					<i class="fa fa-download"></i> Descargar archivo </a>
+					</div>
+					</div>
+				
+				
+					<div id="regla" class="tab-pane fade" style="text-align: justify">
+                <p><strong>REGLAMENTO DE FUNCIONAMIENTO DE LA JUNTA DIRECTIVA</strong> <br>
+						IUSM PNA 3-001
+					</p><br>
+					
+					<div class="col-md-12 col-xs12 col-sm-6 m-b-2" style="text-align: left; margin-bottom: 30px; margin-left: -13px">
+					<a href="pdf/institucional/IUSM PNA 3-001 REGLAMENTO DE FUNCIONAMIENTO DE LA JUNTA DIRECTIVA DE INSTITUTO UNIVERSITARIO DE SEGURIDAD MARITIMA_.pdf" class="btn btn-primary btn-sm" download 	style="border-radius: 15px; background-color: #0073a5">
+					<i class="fa fa-download"></i> Descargar archivo </a>
+					</div>
+						
+						
+					<p><strong>REGLAMENTO PARA LA ADMINISTRACIÓN DEL PERSONAL DOCENTE</strong> <br>
+						IUSM PNA 3-002
+					</p><br>
+					
+					<div class="col-md-12 col-xs12 col-sm-6 m-b-2" style="text-align: left; margin-bottom: 30px; margin-left: -13px">
+					<a href="pdf/institucional/IUSM PNA 3-002 REGLAMENTO PARA LA ADMINISTRACION DEL PERSONAL DOCENTE_.pdf" class="btn btn-primary btn-sm" download 				style="border-radius: 15px; background-color: #0073a5">
+					<i class="fa fa-download"></i> Descargar archivo </a>
+					</div>
+						
+						
+					<p><strong>NORMAS PARA LA LIQUIDACIÓN DE HABERES CORRESPONDIENTES AL PERSONAL DOCENTE</strong> <br>
+						IUSM PNA 3-003
+					</p><br>
+					
+					<div class="col-md-12 col-xs12 col-sm-6 m-b-2" style="text-align: left; margin-bottom: 30px; margin-left: -13px">
+					<a href="pdf/institucional/IUSM PNA 3-003 NORMAS PARA LA LIQUIDACION DE HABERES CORRESPONDIENTES AL PERSONAL DOCENTE_.pdf" class="btn btn-primary btn-sm" download 				style="border-radius: 15px; background-color: #0073a5">
+					<i class="fa fa-download"></i> Descargar archivo </a>
+					</div>	
+						
+						
+					<p><strong>REGLAMENTO ACADÉMICO</strong> <br>
+						IUSM PNA 3-004
+					</p><br>
+					
+					<div class="col-md-12 col-xs12 col-sm-6 m-b-2" style="text-align: left; margin-bottom: 30px; margin-left: -13px">
+					<a href="pdf/institucional/IUSM PNA 3-004 REGLAMENTO ACADÉMICO_.pdf" class="btn btn-primary btn-sm" download 				style="border-radius: 15px; background-color: #0073a5">
+					<i class="fa fa-download"></i> Descargar archivo </a>
+					</div>	
+						
+						
+					<p><strong>REGLAMENTO DE LICENCIAS, JUSTIFICACIONES Y FRANQUICIAS PARA EL PERSONAL DOCENTE</strong> <br>
+						USM PNA 3-006
+					</p><br>
+					
+					<div class="col-md-12 col-xs12 col-sm-6 m-b-2" style="text-align: left; margin-bottom: 30px; margin-left: -13px">
+					<a href="pdf/institucional/IUSM PNA 3-006 REGLAMENTO DE LICENCIAS, JUSTIFICACIONES Y FRANQUICIAS PARA EL PERSONAL DOCENTE_.pdf" class="btn btn-primary btn-sm" download 				style="border-radius: 15px; background-color: #0073a5">
+					<i class="fa fa-download"></i> Descargar archivo </a>
+					</div>	
+						
+					<p><strong>REGLAMENTO DE REVÁLIDA PARA EL PERSONAL DOCENTE</strong> <br>
+						IUSM PNA 3-007
+					</p><br>
+					
+					<div class="col-md-12 col-xs12 col-sm-6 m-b-2" style="text-align: left; margin-bottom: 30px; margin-left: -13px">
+					<a href="pdf/institucional/IUSM PNA 3-007 REGLAMENTO REVALIDA PARA EL PERSONAL DOCENTE_.pdf" class="btn btn-primary btn-sm" download 				style="border-radius: 15px; background-color: #0073a5">
+					<i class="fa fa-download"></i> Descargar archivo </a>
+					</div>	
+						
+					</div>
+				
+               
+            </div>
+          </div>
+        </div>
+		 
+		
+    </div>
+	
+           
+</main>
+	
+<!-- Footer-->
+<footer>
+			
+
+	<div col-lg-12 style="background-color: #ECE8E5; width: 100%; margin-left: auto; margin-right: auto; margin-top: -1px"  >
+
+		<a href="https://www.siu.edu.ar/" target="_blank" style="padding-left: 15px"><img src="img/fragmentos/4.png" alt="SIU"></a>
+		<a href="https://www.coneau.gob.ar/" target="_blank" style="padding-left: 10px"><img src="img/fragmentos/3.png" alt="CONEAU"></a>
+		<a href="https://www.conicet.gov.ar/" target="_blank" style="padding-left: 10px"><img src="img/fragmentos/7.png" alt="CONICET"></a>
+		<a href="https://www.cin.edu.ar/" target="_blank" style="padding-left: 20px"><img src="img/fragmentos/1.png" alt="CIN"></a>	
+		<a href="https://www.imo.org/" target="_blank" style="padding-left: 0px"><img src="img/fragmentos/9.png" alt="IMO"></a>	
+		<a href="http://www.rocram.net/prontus_rocram/site/edic/base/port/inicio.php" target="_blank" style="padding-left: 5px"><img src="img/fragmentos/5.png" 	alt="rocram"></a>
+		<a href="https://iamu-edu.org" target="_blank" style="padding-left: 7px"><img src="img/fragmentos/8.png" alt="iamu"></a>
+		<a href="https://www.mercosur.int/" target="_blank" style="padding-left: 5px"><img src="img/fragmentos/2.png" alt="mercosur"></a>
+		<a href="https://www.unasursg.org/" target="_blank" style="padding-left: 10px"><img src="img/fragmentos/6.png" alt="unasur"></a>
+       
+	</div>
+
+
+<!--<div col-lg-12 style="background-color: white; height: auto"  >
+	<div class="minseguridad" ><a href="https://www.argentina.gob.ar/seguridad"><img src="img/fragmentos/minseguridad.jpg" alt="Min.Seguridad"></a></div>
+	<div class="minprefe"><a href="https://www.argentina.gob.ar/prefecturanaval"><img src="img/fragmentos/prefe.jpg" alt="Prefectura"></a></div>
+	<div class="minedu"><a href="https://www.argentina.gob.ar/educacion"><img src="img/fragmentos/mineducacion.jpg" alt="Min.Educacion"></a></div>
+
+</div>-->
+<div class="container-fluid">
+	<div class="row">
+		<div col-lg-12 style="background-color: white; height: auto; width: 100%; text-align: center"  >
+			<a href="https://www.argentina.gob.ar" target="_blank"><img src="img/fragmentos/LogoArgentina.jpg" alt="Min.Seguridad" style="width: 20%; float: 	left; margin-left: 10%"></a>
+			<a href="https://www.argentina.gob.ar/educacion" target="_blank"><img src="img/fragmentos/Logo Min Edu.jpg" alt="Prefectura" style="width: 20%; margin-left: -70px"></a>	
+			<a href="https://www.argentina.gob.ar/seguridad" target="_blank"><img src="img/fragmentos/Logo Min Seg.jpg" alt="Min.Educacion" style="width: 20%"></a>
+			<a href="https://www.argentina.gob.ar/prefecturanaval" target="_blank"><img src="img/fragmentos/Logo PNA.jpg" alt="Min.Educacion" style="width: 	20%"></a>
+		</div>
+	</div>	
+</div>
+<div class="container-fluid home-footer" style="padding: 0px; background-color: #343A40; color: white; padding-top: 10px">
+<br><br>
+	
+	
+<div class="container">
+  <div class="row">
+  
+    <div class="col-md-3" align="center">
+      <p class="small text-light text-justify">La <strong>Prefectura Naval Argentina</strong> posee una extensa tradici&oacute;n hist&oacute;rica ampliamente reconocida. Las m&uacute;ltiples actividades de indudable repercusi&oacute;n p&uacute;blica y las sucesivas innovaciones en sus procedimientos y medios, renuevan el inter&eacute;s hacia lo que constituye un verdadero ejemplo de dedicaci&oacute;n a los cometidos que el Estado le ha confiado.<br><br></p><br>
+      
+      
+      <br>
+      <br>
+      
+    </div>
+    
+	 <div class="col-md-6">
+      <h5 class="text-light" style="margin-top: 0px;">CONTACTO</h5>
+      <p class="small text-light">IUSM<br>Juan Díaz de Solís 2371 <br>Olivos, Buenos Aires, Argentina </p>
+      
+      <p class="text-light small"><i class="icono-arg-telefono-neg"></i> +54 11 4512 1014</p>
+      <p class="text-light small"><i class="icono-arg-mail-1"></i> informes@iusm.edu.ar </p>
+	  <p class="text-light small"><i class="icono-arg-mundo"></i> https://prefecturanaval.gob.ar</p>
+      <br>
+		  
+      <h5 class="text-light" style="margin-top: 0px">VISITA NUESTRAS REDES SOCIALES</h5>
+      <p>
+        <a href="https://www.facebook.com/prefecturanavalar" target="_blank" class="pictogramanav"style="font-size: 16px"><i class="icono-arg-facebook-f-"></i></a>
+        <a href="https://twitter.com/PrefecturaNaval" target="_blank" class="pictogramanav" style="font-size: 16px"><i class="icono-arg-twitter-pajaro"></i></a>
+        <a href="https://www.youtube.com/c/prefecturanavalar" target="_blank" class="pictogramanav" style="font-size: 16px"><i class="icono-arg-youtube"></i></a>
+        <a href="https://www.instagram.com/prefecturanaval/" target="_blank" class="pictogramanav"style="font-size: 16px"><i class="icono-arg-instagram"></i></a>
+					
+      </p>
+    </div>
+    
+    <div class="col-md-3">
+		<p><a class="textopie" href="index.html">INICIO</a></p> 
+		<p><a class="textopie" href="institucional.html">INSTITUCIONAL</a></p>
+		<p><a class="textopie" href="carreras.php">CARRERAS</a></p>
+		<p><a class="textopie" href="academica.html">ACADÉMICA</a></p>		
+		<p><a class="textopie" href="posgrado.html">POSGRADO</a></p>
+		<p><a class="textopie" href="extension.html">EXTENSIÓN</a></p>
+		<p><a class="textopie" href="investigacion.html">INVESTIGACIÓN</a></p>
+	<!--	<p class="textopie" href="http://www.biblioteca.prefecturanaval.gov.ar/">BIBLIOTECA</p> -->
+		<p><a class="textopie" href="revista/index.html" target="_blank">REVISTA</a></p>
+		<p><a class="textopie" href="ubicacion.html">UBICACIÓN</a></p>
+		
+      <ul class="sitemap">
+             
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</footer>
+ </body>
+        
+</html>

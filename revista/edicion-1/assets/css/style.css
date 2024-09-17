@@ -1,0 +1,295 @@
+/* fonts update */
+html, body, p, button {
+font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* BOOTSTRAP OVERRIDE STYLES */
+
+.carousel-caption {
+    text-align:left;
+    top:30%;
+    bottom:unset;
+    padding-top:unset;
+    padding-bottom:unset;
+    
+}
+.carousel-item img {
+    filter: brightness(0.7);
+}
+
+.carousel-caption h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.carousel-caption p {
+    font-size: 1.6rem;
+    font-weight:400;
+    text-shadow: 1px 1px 4px #000000;
+    padding-right:40%;
+
+}
+
+.carousel-caption a.btn{
+ font-size: 1.4rem;
+ color: #0B75A4;
+ font-weight: 500;
+ text-transform: uppercase;
+ padding: 10px 50px;
+ background-color: #E6E6E6;
+ box-shadow: 2px 2px 4px #000;
+} 
+
+.carousel-caption a.btn:hover{
+    background-color: #fff;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("../csv/arrow-prev.svg");
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.3));
+}
+
+.carousel-control-next-icon {
+    background-image: url("../csv/arrow-next.svg");	
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	display: inline-block;
+	width: 3.6rem;
+	height: 3.6rem;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 100% 100%;
+}
+
+.dropdown-menu {
+    margin-top:7px!important;
+}
+.dropdown-menu-dark {
+    background-color: #3B4449;
+    border-radius: 0;
+    border: 0;
+    
+}
+
+/* IUSM SPECIFIC STYLES */
+#iusm-header {
+    height:100px;
+}
+.iusm-logo-revista-svg {
+    width:250px; 
+    height:100px;
+}
+.iusm-logo-header{
+    width:150px;
+    height:100px;
+}
+.iusm-logo {
+    width:250px; 
+    height:100%;
+}
+
+/* Background colors */
+.iusm-bg-1 {
+    background-color: #E6E6E6;
+}
+
+.iusm-bg-2 {
+    background-color: #3B4449;
+}
+
+.iusm-bg-3 {
+    background-color: #0B75A4;
+}
+
+.iusm-bg-4 {
+    background-color: #EF8618;
+}
+
+/* font colors */
+.iusm-fc-blue {
+    color: #0B75A4;
+} 
+
+.iusm-divider img{
+    height: 30px;
+    width:100%;
+}
+
+.iusm-a-r .iusm-txt{
+text-align:right;
+max-width:85%;
+}
+.iusm-a-l .iusm-txt{
+    text-align:left;
+    max-width:85%;
+    }
+
+.iusm-video-home {
+    height:500px;
+}
+.iusm-video {
+    position:absolute;
+    right:50vw;
+    margin-top:-103px;
+    width: calc(98vw/2);
+    height: 500px;
+}
+.iusm-col-right {
+    max-width:30vw; 
+    margin-right: 15vw;
+}
+.iusm-testimonial { 
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.iusm-testimonial .container{
+    height:500px;
+}
+.iusm-testimonial-img {
+    position:absolute;
+    margin-bottom: -41px;
+    right:0;
+    height:500px;
+    width: 50%;
+}
+.iusm-testimonial-img img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.iusm-nav {
+    font-size: 1.3rem;
+}
+.iusm-nav:active {
+    color:red;
+}
+
+/* CARDS Custom Styles */
+.iusm-cards .col-md-6 .card{
+    /*border-radius: 25px;*/
+    transition: 0.3s ease-in-out;
+}
+.iusm-cards .col .card img{
+    border-radius: 25px 25px 0 0;
+    
+}
+
+.iusm-cards .col-md-6 .card:hover {
+    transform: scale(1.05, 1.05);
+    transition: 0.3s ease-in-out;
+}
+
+.iusm-testimonial .iusm-button, .iusm-video-home .iusm-button{
+font-size: 1.2rem;
+ color: #0B75A4;
+ font-weight: 500;
+ text-transform: uppercase;
+ padding: 7px 40px;
+ background-color: #fff;
+}
+.iusm-testimonial .iusm-button:hover, .iusm-video-home .iusm-button:hover{
+    color: #fff;
+     background-color: rgba(255, 255, 255, 0.1);
+ }
+
+ /* TITLE BAR */
+ #iusm-title-bar {
+    height: 600px;
+    padding: 0px 10vw;
+ }
+ #iusm-title-bar .divider {
+    width:70%;
+    border-top: 1px solid #fff;
+    color:transparent;
+ }
+ .iusm-article-title, .iusm-section-title, .iusm-article-date{
+    font-family: 'Encode Sans', sans-serif !important;
+ }
+
+ .iusm-section-title {
+    display: table;
+    background-color: #fff;
+    padding: 0px 40px;
+ }
+
+ /* CONTENT */
+
+ .iusm-content {
+    max-width: 70%;
+ }
+ .iusm-content .iusm-button {
+    color:#fff;
+    border: 1px solid #000;
+    
+    background-color: #0B75A4;
+    padding: 10px 40px;
+ }
+ .iusm-content .iusm-button:hover {
+   color: #0B75A4; 
+    background-color: rgba(59, 68, 73, 0.1);
+ }
+ .iusm-content p {
+    text-align: justify !important;
+    font-weight: 300;
+    -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+ }
+
+ .iusm-bio-title {
+    display: table;
+    background-color: #0B75A4;
+    padding: 0px 40px;
+    color:#fff;
+ }
+
+ .iusm-img-divider {
+    height: 300px;
+    padding: 0px 10vw;
+ }
+ .iusm-img-divider h1 {
+    font-family: 'Encode Sans', sans-serif !important;
+    font-size:3rem;
+ }
+ .iusm-hashtag {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #0B75A4;
+    text-align: center;
+ }
+
+ /* RELATED CARDS */
+
+ .iusm-related-cards .iusm-related-title {
+    height: 20px;
+    width:100%;
+    /* background-image: url('assets/csv/related-title.svg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 25px;
+ }
+
+ .iusm-related-cards .col .card{
+    border: 0px;
+    transition: 0.3s ease-in-out;
+ }
+ .iusm-related-cards .card-body {
+    background-color:#0B75A4;
+    color:#fff;
+    padding-left:0;
+    padding-bottom:0px;
+    border-bottom: solid 1px #fff;
+ }
+ .iusm-related-cards .col .card:hover{
+    transform: scale(1.05, 1.05);
+    transition: 0.3s ease-in-out;
+ }
+
