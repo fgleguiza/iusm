@@ -438,7 +438,9 @@ function navBar() {
 			  <li class="nav-item"><a href="extension.html" class="textomenu">EXTENSIÓN</a></li>
 			  <li class="nav-item"><a href="investigacion.html" class="textomenu">INVESTIGACIÓN</a></li>
 			  <li class="nav-item"><a href="index.html#plataformas-virtuales-educativas" class="textomenu">PLATAFORMAS</a></li>
-			  <li class="nav-item"><a href="ubicacion.html"><i class="icono-arg-marcador-ubicacion-2" style="color: black"></i></a></li>
+ 			  <li class="nav-item"><a href="conciertos.html" class="textomenu blink">CICLO DE CONCIERTOS</a></li>
+        <li class="nav-item"><a href="ubicacion.html"><i class="icono-arg-marcador-ubicacion-2" style="color: black"></i></a></li>
+
 			</ul>
 		  </div>
 		  <span class="navbar-toggler-icon"></span>
@@ -449,7 +451,11 @@ function navBar() {
 		</div>
 	  </nav>
 	`;
-  }
+  const platformsLink = document.querySelector('.textomenu.blink');
+    platformsLink.style.animation = 'blink 1s infinite';
+}
+
 
 
 navBar();
+
