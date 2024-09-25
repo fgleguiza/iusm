@@ -427,7 +427,7 @@ function navBar() {
 	element.innerHTML = `
 	  <nav class="navbar navbar-light shadow navbar-expand-lg" style="background-color: rgba(255,255,255,1); padding: 0px;">
 		<div class="container" style="padding:0px;">
-		  <a class="navbar-brand" href="index.html" style="padding:0px; width: 7%; height: 7%;margin-left: 20% ;margin-top: auto"><img class="logomenu img-responsive" src="img/fragmentos/logo_iusm.png"></a>
+		  <a class="navbar-brand" href="index.html" style="padding:0px; width: 7%; height: 7%;margin-left: 10% ;margin-top: auto"><img class="logomenu img-responsive" src="img/fragmentos/logo_iusm.png"></a>
 		  <div class="nav-item-float">
 			<ul class="nav nav-pills col-12 col-md-auto mb-2 justify-content-center mb-md-0" style="padding-top: 40px; float: right; text-decoration: none;">
 			  <li class="nav-item"><a href="index.html"> <i class="icono-arg-casa-negativo" style="color: black"></i> </a></li>
@@ -454,8 +454,44 @@ function navBar() {
   const platformsLink = document.querySelector('.textomenu.blink');
     platformsLink.style.animation = 'blink 1s infinite';
 }
-
-
-
 navBar();
 
+
+
+function logosAuspiciantes() {
+	const element = document.getElementById("logosAuspiciantes");
+	element.innerHTML = `  
+<div col-lg-12 style="background-color: #ECE8E5; width: 100%; margin-left: auto; margin-right: auto; margin-top: -1px"  >
+<a href="https://www.siu.edu.ar/" style="padding-left: 10px"><img src="img/fragmentos/4.png" alt="SIU"></a>
+<a href="https://www.coneau.gob.ar/" style="padding-left: 10px"><img src="img/fragmentos/3.png" alt="CONEAU"></a>
+<a href="https://www.conicet.gov.ar/" style="padding-left: 10px"><img src="img/fragmentos/7.png" alt="CONICET"></a>
+<a href="https://www.cin.edu.ar/" style="padding-left: 15px"><img src="img/fragmentos/1.png" alt="CIN"></a>	
+<a href="https://www.imo.org/" style="padding-left: 0px"><img src="img/fragmentos/9.png" alt="IMO"></a>	
+<a href="http://www.rocram.net/prontus_rocram/site/edic/base/port/inicio.php" style="padding-left: 5px"><img src="img/fragmentos/5.png" 	alt="rocram"></a>
+<a href="https://iamu-edu.org" style="padding-left: 7px"><img src="img/fragmentos/8.png" alt="iamu"></a>
+<a href="https://www.mercosur.int/" style="padding-left: 5px"><img src="img/fragmentos/2.png" alt="mercosur"></a>
+<a href="https://www.unasursg.org/" style="padding-left: 10px"><img src="img/fragmentos/6.png" alt="unasur"></a>
+</div>
+	`;
+}
+logosAuspiciantes();
+
+
+
+
+function logosMinisterios() {
+	const element = document.getElementById("logosMinisterios");
+	element.innerHTML = `  
+<div class="container-fluid">
+	<div class="row">
+		<div col-lg-12 style="background-color: white; height: auto; width: 100%; text-align: center"  >
+			<a href="https://www.argentina.gob.ar"><img src="img/fragmentos/LogoArgentina.jpg" alt="Min.Seguridad" style="width: 20%; float: 	left; margin-left: 10%"></a>
+			<a href="https://www.argentina.gob.ar/educacion"><img src="img/fragmentos/sec_edu.png" alt="Prefectura" style="width: 20%; margin-left: -70px"></a>	
+			<a href="https://www.argentina.gob.ar/seguridad"><img src="img/fragmentos/Logo Min Seg.jpg" alt="Min.Educacion" style="width: 20%"></a>
+			<a href="https://www.argentina.gob.ar/prefecturanaval"><img src="img/fragmentos/Logo PNA.jpg" alt="Min.Educacion" style="width: 	20%"></a>
+		</div>
+	</div>	
+</div>
+	`;
+}
+logosMinisterios();
