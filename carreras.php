@@ -231,8 +231,7 @@
 	</div>
 -->
 
-<div id="logosAuspiciantes"></div>
-<div id="logosMinisterios"></div>
+
     
 <div class="container-fluid home-footer" style="padding: 0px; background-color: #343A40; color: white; padding-top: 10px">
 <br><br>
